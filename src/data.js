@@ -202,7 +202,7 @@ export const events = [
       "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fFdlYiUyMERlc2lnbiUyMFdvcmtzaG9wfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
     genres: ["Technology", "Movies", "Games"],
     eventMode: "Online",
-    dateAndTime: "Thu, Mar 9, 2023 02:00 PM-United State Of America Time",
+    dateAndTime: "Thu, Mar 9, 2023 02:00 PM USA Time",
     address: "310 S. Main, Floor 12Salt Lake City, UT 84101",
     language: "English",
     fees: "50",
