@@ -10,7 +10,10 @@ const eventSlice = createSlice({
   },
   reducers: {
     setEvent: (state, action) => {
-      state.singleEvent = action.payload;
+      const singleEvent = state.events.map(
+        (event) => event.id === action.payload
+      );
+      state.singleEvent = singleEvent;
     },
     setSearchQuery: (state, action) => {
       const searchQuery = action.payload.toLowerCase();
