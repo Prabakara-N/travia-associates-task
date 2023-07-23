@@ -17,7 +17,12 @@ export const events = [
     language: "English",
     fees: "30",
     publishedAt: "18 min",
+    description:
+      "Join us in New York for an immersive Web Design Workshop led by Sarah Johnson, a renowned expert in the field. Learn the latest trends, tools, and techniques used by professionals to create visually stunning and user-friendly websites. This in-person workshop will take place on July 25, 2023, from 10:00 AM to 4:00 PM, at 123 Main St, New York, NY. All skill levels are welcome, and the workshop will be conducted in English. Don't miss this opportunity to enhance your web design skills and network with fellow enthusiasts. The registration fee for this workshop is $30.",
+    univerSity: "Harvard University",
+    departMent: "Computer Science",
   },
+
   {
     id: 2,
     title: "Cooking Class: Italian Cuisine",
@@ -36,6 +41,10 @@ export const events = [
     language: "Italian",
     fees: "40",
     publishedAt: "48 min",
+    description:
+      "Embark on a delectable journey to the heart of Italy with Chef Marco Rossi's hands-on cooking class in Rome. Experience the authentic flavors and techniques of Italian cuisine as you create mouthwatering dishes on August 8, 2023. From traditional pasta to rich sauces, this class at Via delle Terme di Tito, 00184 Roma RM, Italy, promises to satisfy your culinary curiosity. Beginners and food enthusiasts alike are welcome to join this immersive class, which will be conducted in Italian with translation assistance. Embrace the essence of Italy for just $40.",
+    univerSity: "Stanford University",
+    departMent: "Electrical Engineering",
   },
   {
     id: 3,
@@ -55,7 +64,12 @@ export const events = [
     language: "English",
     fees: "60",
     publishedAt: "11 hrs",
+    description:
+      "Find inner serenity amidst the beauty of Bali with our transformative Yoga Retreat led by the gifted instructor, Emily Lee. Immerse yourself in daily yoga sessions, meditation practices, and nutritious meals from September 20 to 25, 2023. Set in the tranquil surroundings of Ubud, this retreat is your path to rejuvenation and self-discovery. Leave behind the chaos and connect with nature in this English-led retreat. Reserve your spot now for a rejuvenating experience priced at $60.",
+    univerSity: "Massachusetts Institute of Technology (MIT)",
+    departMent: "Aerospace Engineering",
   },
+
   {
     id: 4,
     title: "Painting Workshop",
@@ -74,6 +88,10 @@ export const events = [
     language: "French",
     fees: "50",
     publishedAt: "23 hrs",
+    description:
+      "Unleash your creative genius at our immersive Painting Workshop in Paris, guided by the esteemed artist, Claire Dubois. On October 5, 2023, embrace various painting styles and techniques at 8 Rue de la Grande Chaumière, 75006 Paris, France. Ignite your passion for art, whether you're a beginner or a seasoned painter. Claire will offer explanations in English as she conducts the workshop in French. Discover the artist within you for just $50.",
+    univerSity: "University of Oxford",
+    departMent: "History",
   },
   {
     id: 5,
@@ -93,6 +111,10 @@ export const events = [
     language: "English",
     fees: "Free",
     publishedAt: "1 day",
+    description:
+      "Venture into the world of entrepreneurship with our Online Startup Funding Conference on November 18, 2023. Learn from successful founders and investors as they share invaluable insights for securing funding. Network with industry experts and potential investors, all from the comfort of 500 Howard St, San Francisco, CA 94105. This English-speaking event is your stepping stone to success, and the best part is that it's free! Join now and pave your way to entrepreneurial excellence.",
+    univerSity: "Yale University",
+    departMent: "Psychology",
   },
   {
     id: 6,
@@ -112,6 +134,10 @@ export const events = [
     language: "English",
     fees: "20",
     publishedAt: "2 days",
+    description:
+      "Immerse yourself in the captivating world of photography at our exhibit curated by the talented Sophie Turner. From landscapes to portraits, witness breathtaking works by photographers worldwide on December 2, 2023. Join us at Southbank Centre, Belvedere Rd, Bishop's, London SE1 8XX, UK, and get lost in artistic brilliance. Open to all art lovers, this English-led exhibition awaits you at an entry fee of $20.",
+    univerSity: "California Institute of Technology (Caltech)",
+    departMent: " Physics",
   },
   {
     id: 7,
@@ -131,6 +157,10 @@ export const events = [
     language: "Spanish",
     fees: "75",
     publishedAt: "3 days",
+    description:
+      "Feel the rhythm and energy of music at our Music Festival in Austin on January 14, 2024. Dance to diverse tunes, celebrate the artistry of musicians, and embrace the vibrant ambiance of Zilker Park. This English-speaking festival promises a memorable experience for music enthusiasts. Secure your ticket now for a harmonious journey priced at $75.",
+    univerSity: "Princeton University",
+    departMent: "Economics",
   },
   {
     id: 8,
@@ -150,6 +180,10 @@ export const events = [
     language: "English",
     fees: "45",
     publishedAt: "4 days",
+    description:
+      "Revamp your fitness journey with our Fitness Bootcamp in Sydney, guided by the dynamic fitness instructor, Emma Wilson. Experience high-intensity workouts, personalized coaching, and group challenges on February 27, 2024, at 33 Cross St, Double Bay. Suitable for all fitness levels, this English-led bootcamp fosters a healthier lifestyle. Kickstart your transformation for just $45.",
+    univerSity: "University of Cambridge",
+    departMent: "Biology",
   },
   {
     id: 9,
@@ -169,6 +203,10 @@ export const events = [
     language: "English",
     fees: "Free",
     publishedAt: "5 days",
+    description:
+      "Journey into the realms of sci-fi wonders with our Science Fiction Book Club on March 10, 2024. Engage in lively discussions and book recommendations at 123 Yonge St, Toronto, ON M5C 1W4, Canada. Join the English-speaking club, hosted by the avid sci-fi fan, David Chen, for a thrilling literary experience that's free for all enthusiasts.",
+    univerSity: "Columbia University",
+    departMent: "Journalism",
   },
   {
     id: 10,
@@ -188,6 +226,10 @@ export const events = [
     language: "English",
     fees: "65",
     publishedAt: "6 days",
+    description:
+      "Unleash the power of digital marketing with our Online Conference on April 22, 2024, at Marina Bay Sands, 10 Bayfront Ave, Singapore 018956. Gain insights from industry experts, explore cutting-edge strategies, and expand your network. This English-led event is your gateway to staying ahead in the fast-paced digital landscape. Secure your virtual seat for just $65.",
+    univerSity: "University of Chicago",
+    departMent: "Sociology",
   },
   {
     id: 11,
@@ -207,5 +249,9 @@ export const events = [
     language: "English",
     fees: "50",
     publishedAt: "7 days",
+    description:
+      "Lots of us have home assistants in our homes nowadays. They re very clever. You can get recipes, pla music, control your lights, and so much more with just a simple voice command. But home assistants are just 1 example of an amazing development in technology called artificial intelligence, or AI for short.We ve all heard that phrase, and most people could probably give a basic explanation, but who really knows exactly what it is? Thankfully, this course will give you the insight you need, by explaining exactly what AI is and how it can be useful day to day.",
+    univerSity: "Harvard University",
+    departMent: "Computer Science",
   },
 ];
