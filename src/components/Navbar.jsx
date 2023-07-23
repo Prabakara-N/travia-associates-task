@@ -17,7 +17,7 @@ const Navbar = () => {
         <BiSun />
         <BiBell />
         <div className="w-[40px] h-[40px] rounded-full overflow-hidden ">
-          <img src={profilePic} alt="user-logo" />
+          <img src={profilePic} alt="user-logo" className="w-full h-full " />
         </div>
       </div>
     </div>

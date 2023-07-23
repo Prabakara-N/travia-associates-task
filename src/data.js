@@ -6,6 +6,8 @@ export const events = [
     date: "25 Jul 2023, Tue",
     time: "10:00 AM EDT",
     author: "Sarah Johnson",
+    cardDiscription:
+      "An online event in Brussels where Robert Fox will showcase the latest web design templates.",
     authorProfile:
       "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ2fHxwZW9wbGVzJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
     image:
@@ -31,6 +33,8 @@ export const events = [
     location: "Rome",
     date: "08 Aug 2023, Mon",
     time: "06:30 PM CEST",
+    cardDiscription:
+      " Jennifer Tan hosts this online event in Singapore, focusing on marketing and digital trends.",
     author: "Marco Rossi",
     authorProfile:
       "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA1fHxwZW9wbGVzJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -57,6 +61,8 @@ export const events = [
     location: "Bali",
     date: "20 Sep 2023, Wed",
     time: "08:00 AM WITA",
+    cardDiscription:
+      " Learn about AI and its real-world applications in this insightful course. ",
     author: "Emily Lee",
     authorProfile:
       "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBlb3BsZXMlMjBwcm9maWxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
@@ -83,6 +89,8 @@ export const events = [
     location: "Paris",
     date: "05 Oct 2023, Thu",
     time: "03:00 PM CEST",
+    cardDiscription:
+      " Immerse yourself in historical discoveries during this symposium at Harvard University's History department.",
     author: "Claire Dubois",
     authorProfile:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGVvcGxlcyUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
@@ -109,6 +117,8 @@ export const events = [
     location: "San Francisco",
     date: "18 Nov 2023, Sat",
     time: "09:30 AM PST",
+    cardDiscription:
+      " Dive into the world of psychology in this workshop at Yale University. ",
     author: "Michael Adams",
     authorProfile:
       "https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBlb3BsZXMlMjBwcm9maWxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
@@ -135,6 +145,8 @@ export const events = [
     location: "London",
     date: "02 Dec 2023, Sat",
     time: "11:00 AM GMT",
+    cardDiscription:
+      " Delve into the intriguing world of physics through this seminar at Caltech. ",
     author: "Sophie Turner",
     authorProfile:
       "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fHBlb3BsZXMlMjBwcm9maWxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
@@ -161,6 +173,8 @@ export const events = [
     location: "Madrid",
     date: "14 Jan 2024, Sat",
     time: "04:00 PM CST",
+    cardDiscription:
+      "Unravel the complexities of economics at Princeton University's forum.",
     author: "Alex Ramirez",
     authorProfile:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBlb3BsZXMlMjBwcm9maWxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
@@ -187,6 +201,8 @@ export const events = [
     location: "Sydney",
     date: "27 Feb 2024, Mon",
     time: "07:00 AM AEDT",
+    cardDiscription:
+      "Explore the wonders of biology at this symposium hosted by the University of Cambridge.",
     author: "Emma Wilson",
     authorProfile:
       "https://images.unsplash.com/photo-1519336555923-59661f41bb45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fHBlb3BsZXMlMjBwcm9maWxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
@@ -213,6 +229,8 @@ export const events = [
     location: "Toronto",
     date: "10 Mar 2024, Sat",
     time: "03:30 PM EST",
+    cardDiscription:
+      "Sharpen your journalistic skills at Columbia University's workshop. ",
     author: "David Chen",
     authorProfile:
       "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHBlb3BsZXMlMjBwcm9maWxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
@@ -239,6 +257,8 @@ export const events = [
     location: "Singapore",
     date: "22 Apr 2024, Sun",
     time: "10:00 AM SGT",
+    cardDiscription:
+      "oin this insightful sociology conference at the University of Chicago. ",
     author: "Jennifer Tan",
     authorProfile:
       "https://images.unsplash.com/photo-1517630800677-932d836ab680?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fHBlb3BsZXMlMjBwcm9maWxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
@@ -265,6 +285,8 @@ export const events = [
     location: "Brussels",
     date: "16 Jun 2023, Sat",
     time: "02:00 PM ETD",
+    cardDiscription:
+      "An online event in Brussels where Robert Fox will showcase the latest web design templates.",
     author: "Robert Fox",
     authorProfile:
       "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHBlb3BsZXMlMjBwcm9maWxlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
