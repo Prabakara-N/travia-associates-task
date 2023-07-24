@@ -1,0 +1,88 @@
+import React, { useEffect, useState } from "react";
+import { useSelector } from "react-redux";
+
+const EventSchedule = () => {
+  const [selectedDay, setSelectedDay] = useState(1);
+  const { singleEvent } = useSelector((state) => state.events);
+  const { eventDay, eventSchedule } = singleEvent;
+  // const { dayOne, dayTwo, dayThree } = eventSchedule;
+
+  // useEffect(() => {
+  //   setSelectedDay(1);
+  // }, []);
+
+  return (
+    <div>
+      <h1 className="font-semibold text-xl">Event Schedule</h1>
+      <div className="flex gap-4 mt-4">
+        <div
+          onClick={() => setSelectedDay(1)}
+          className={`${
+            selectedDay === 1 ? "border-orange-500 " : "border-orange-200 "
+          }flex flex-col w-[210px] border-b-[2px]  font-semibold cursor-pointer`}
+        >
+          <p
+            className={`${
+              selectedDay === 1 ? "text-orange-500" : "text-gray-500"
+            } text-lg`}
+          >
+            Day 01
+          </p>
+          <small
+            className={`${
+              selectedDay === 1 ? "text-orange-500" : "text-gray-400"
+            }`}
+          >
+            {eventDay[0]}
+          </small>
+        </div>
+
+        <div
+          onClick={() => setSelectedDay(2)}
+          className={`${
+            selectedDay === 2 ? "border-orange-500 " : "border-orange-200 "
+          }flex flex-col w-[210px] border-b-[2px]  font-semibold cursor-pointer`}
+        >
+          <p
+            className={`${
+              selectedDay === 2 ? "text-orange-500" : "text-gray-500"
+            } text-lg`}
+          >
+            Day 02
+          </p>
+          <small
+            className={`${
+              selectedDay === 2 ? "text-orange-500" : "text-gray-400"
+            }`}
+          >
+            {eventDay[1]}
+          </small>
+        </div>
+
+        <div
+          onClick={() => setSelectedDay(3)}
+          className={`${
+            selectedDay === 3 ? "border-orange-500 " : "border-orange-200 "
+          }flex flex-col w-[210px] border-b-[2px]  font-semibold cursor-pointer`}
+        >
+          <p
+            className={`${
+              selectedDay === 3 ? "text-orange-500" : "text-gray-500"
+            } text-lg`}
+          >
+            Day 03
+          </p>
+          <small
+            className={`${
+              selectedDay === 3 ? "text-orange-500" : "text-gray-400"
+            }`}
+          >
+            {eventDay[2]}
+          </small>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default EventSchedule;

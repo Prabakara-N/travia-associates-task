@@ -25,6 +25,213 @@ export const events = [
     universityLogo:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgoZe_66uCQPO65NLVlx0FMrGcwqOf5pe37A&usqp=CAU",
     eventDay: ["25 March", "26 March", "27 March"],
+    eventSchedule: {
+      dayOne: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 3,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          starTtime: "3:00 AM",
+          endTime: "4:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sasha Jackson",
+              speakerSocialMediaName: "@sasha-jackson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Diana Brock",
+              speakerSocialMediaName: "@dianabrock",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+      dayTwo: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          starTtime: "3:00 AM",
+          endTime: "4:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sasha Jackson",
+              speakerSocialMediaName: "@sasha-jackson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Diana Brock",
+              speakerSocialMediaName: "@dianabrock",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+      dayThree: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Diana Brock",
+              speakerSocialMediaName: "@dianabrock",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+
+            {
+              id: 3,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          starTtime: "3:00 AM",
+          endTime: "4:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sasha Jackson",
+              speakerSocialMediaName: "@sasha-jackson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+      ],
+    },
   },
 
   {
