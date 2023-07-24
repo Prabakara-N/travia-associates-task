@@ -23,6 +23,7 @@ export const events = [
     departMent: "Computer Science",
     universityLogo:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgoZe_66uCQPO65NLVlx0FMrGcwqOf5pe37A&usqp=CAU",
+    eventDay: ["25 March", "26 March", "27 March"],
   },
 
   {
@@ -49,6 +50,7 @@ export const events = [
     departMent: "Electrical Engineering",
     universityLogo:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm6wuZ8u8mOhUixeGFMIfSuwoRi6FuUIWFsw&usqp=CAU",
+    eventDay: ["8 August", "9 August", "10 August"],
   },
 
   {
@@ -75,6 +77,7 @@ export const events = [
     departMent: "Aerospace Engineering",
     universityLogo:
       "https://admissions.ucr.edu/sites/default/files/styles/form_preview/public/2018-10/MIT_logo.png?itok=WQCSa0Re",
+    eventDay: ["20 September", "21 September", "10 September"],
   },
 
   {
@@ -101,6 +104,7 @@ export const events = [
     departMent: "History",
     universityLogo:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Oxford-University-Circlet.svg/1636px-Oxford-University-Circlet.svg.png",
+    eventDay: ["5 October", "6 October", "7 October"],
   },
 
   {
@@ -126,6 +130,7 @@ export const events = [
     departMent: "Psychology",
     universityLogo:
       "https://historyprogram.commons.gc.cuny.edu/files/2016/09/Yales-logo.jpg",
+    eventDay: ["18 November", "19 November", "20 November"],
   },
 
   {
@@ -152,6 +157,7 @@ export const events = [
     departMent: " Physics",
     universityLogo:
       "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Seal_of_the_California_Institute_of_Technology.svg/800px-Seal_of_the_California_Institute_of_Technology.svg.png",
+    eventDay: ["2 December", "3 December", "4 December"],
   },
 
   {
@@ -180,6 +186,7 @@ export const events = [
     departMent: "Economics",
     universityLogo:
       "https://logos-world.net/wp-content/uploads/2023/02/Princeton-University-Seal-Logo-1896.png",
+    eventDay: ["14 January", "15 January", "16 January"],
   },
 
   {
@@ -197,7 +204,7 @@ export const events = [
       "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fEZpdG5lc3MlMjBCb290Y2FtcHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
     genres: ["Health & Wellness", "Fitness"],
     eventMode: "Online",
-    dateAndTime: "Mon, Feb 27, 2024 07:00 AM",
+    dateAndTime: "Mon, Feb 26, 2024 07:00 AM",
     address: "33 Cross St, Double Bay NSW 2028, Australia",
     language: "English",
     fees: "45",
@@ -208,6 +215,7 @@ export const events = [
     departMent: "Biology",
     universityLogo:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Coat_of_Arms_of_the_University_of_Cambridge.svg/1200px-Coat_of_Arms_of_the_University_of_Cambridge.svg.png",
+    eventDay: ["26 February", "27 February", "28 February"],
   },
 
   {
@@ -236,6 +244,7 @@ export const events = [
     departMent: "Journalism",
     universityLogo:
       "https://admissions.ucr.edu/sites/default/files/styles/form_preview/public/2020-07/ucr-education-logo-columbia-university.png?itok=-0FD6Ma2",
+    eventDay: ["10 March", "11 March", "12 March"],
   },
 
   {
@@ -264,6 +273,7 @@ export const events = [
     departMent: "Sociology",
     universityLogo:
       "https://gistbok.ucgis.org/sites/default/files/document-sharing-form-files/209/uchicago.jpg",
+    eventDay: ["22 April", "23 April", "24 April"],
   },
 
   {
@@ -292,6 +302,7 @@ export const events = [
     departMent: "Computer Science",
     universityLogo:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgoZe_66uCQPO65NLVlx0FMrGcwqOf5pe37A&usqp=CAU",
+    eventDay: ["9 March", "10 March", "11 March"],
     evenSchedule: {
       dayOne: [
         {
