@@ -47,9 +47,13 @@ const EventInfo = () => {
 
       {/* generes */}
       <div className="flex items-center gap-4 mt-6">
-        {genres.length > 0 &&
-          genres.map((genre) => (
-            <small className="bg-gray-200 text-gray-700 font-medium flex items-center gap-2 px-2 py-1 rounded-xl">
+        {genres &&
+          genres.length > 0 &&
+          genres.map((genre, index) => (
+            <small
+              key={index}
+              className="bg-gray-200 text-gray-700 font-medium flex items-center gap-2 px-2 py-1 rounded-xl"
+            >
               <GoDotFill /> {genre}
             </small>
           ))}
@@ -104,7 +108,7 @@ const EventInfo = () => {
         </div>
       </div>
 
-      <div className="text-center mt-2">
+      <div className="text-center mt-4">
         <button className="bg-orange-600 px-4 py-2 rounded-md font-medium text-white">
           Register Event
         </button>

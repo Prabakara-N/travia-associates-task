@@ -8,13 +8,6 @@ const AllEvents = () => {
   const { events } = useSelector((state) => state.events);
   const dispatch = useDispatch();
 
-  if (events.length < 1) {
-    return (
-      <h1 className="text-xl w-[430px] text-center text-gray-600 font-semibold">
-        No Events Found !!!
-      </h1>
-    );
-  }
   return (
     <div className="w-[430px] flex flex-col gap-4">
       {events.map((event) => {

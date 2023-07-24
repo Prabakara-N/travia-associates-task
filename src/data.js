@@ -127,7 +127,7 @@ export const events = [
     address: "500 Howard St, San Francisco, CA 94105",
     language: "English",
     speaker: "Prof. Sarah Thompson",
-    fees: "Free",
+    fees: "35",
     publishedAt: "1 day",
     description:
       "Venture into the world of entrepreneurship with our Online Startup Funding Conference on November 18, 2023. Learn from successful founders and investors as they share invaluable insights for securing funding. Network with industry experts and potential investors, all from the comfort of 500 Howard St, San Francisco, CA 94105. This English-speaking event is your stepping stone to success, and the best part is that it's free! Join now and pave your way to entrepreneurial excellence.",

@@ -48,3 +48,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--clr-white);
 }
+
+.desc-list {
+  list-style: disc;
+}

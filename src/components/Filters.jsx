@@ -4,9 +4,12 @@ import { RiSearchLine } from "react-icons/ri";
 import { LuCalendarDays } from "react-icons/lu";
 import { BiDollar } from "react-icons/bi";
 import { MdOutlineOnlinePrediction } from "react-icons/md";
+import { useDispatch } from "react-redux";
+import { setSearchQuery } from "../redux/features/eventSlice";
 
 const Filters = () => {
   const [searchEvent, setSearchEvent] = useState("");
+  const dispatch = useDispatch();
   return (
     <div className="flex items-center justify-between ">
       <div className="flex items-center w-[430px] justify-between">
@@ -19,7 +22,10 @@ const Filters = () => {
             type="text"
             className="pl-8 py-2 border-[1px] w-full border-gray-300 rounded-md"
             value={searchEvent}
-            onChange={(e) => setSearchEvent(e.target.value)}
+            onChange={(e) => {
+              setSearchEvent(e.target.value);
+              dispatch(setSearchQuery(e.target.value));
+            }}
             placeholder="Search events..."
           />
         </div>
