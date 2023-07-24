@@ -7,10 +7,11 @@ const eventSlice = createSlice({
     events: events,
     singleEvent: {},
     loading: false,
+    day: [],
   },
   reducers: {
     setEvent: (state, action) => {
-      const singleEvent = state.events.map(
+      const singleEvent = state.events.find(
         (event) => event.id === action.payload
       );
       state.singleEvent = singleEvent;
@@ -25,8 +26,18 @@ const eventSlice = createSlice({
     setLoading: (state, action) => {
       state.loading = action.payload;
     },
+    setDay: (state, action) => {
+      if (action.payload === 1) {
+        state.day = state.singleEvent.evenSchedule.dayOne;
+      } else if (action.payload === 2) {
+        state.day = state.singleEvent.evenSchedule.dayTwo;
+      } else if (action.payload === 3) {
+        state.day = state.singleEvent.evenSchedule.dayThree;
+      }
+    },
   },
 });
 
 export default eventSlice.reducer;
-export const { setEvent, setSearchQuery, setLoading } = eventSlice.actions;
+export const { setEvent, setSearchQuery, setLoading, setDay } =
+  eventSlice.actions;
