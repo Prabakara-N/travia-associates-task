@@ -12,6 +12,7 @@ export const events = [
       "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGV2ZWxvcG1lbnQlMjB3b3Jrc2hvcHxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
     genres: ["Technology", "Web Development"],
     eventMode: "Online",
+    speaker: "Yui Ronald",
     dateAndTime: "Tue, Jul 25, 2023 10:00 AM",
     address: "123 Main St, New York, NY 10001",
     language: "English",
@@ -42,6 +43,7 @@ export const events = [
     dateAndTime: "Mon, Aug 8, 2023 06:30 PM",
     address: "Via delle Terme di Tito, 00184 Roma RM, Italy",
     language: "Italian",
+    speaker: "Jennifer Tan",
     fees: "40",
     publishedAt: "48 min",
     description:
@@ -69,6 +71,7 @@ export const events = [
     dateAndTime: "Wed, Sep 20, 2023 08:00 AM",
     address: "Jl. Raya Kedewatan, Ubud, Gianyar, Bali 80571, Indonesia",
     language: "English",
+    speaker: "Dr. Emily Johnson",
     fees: "60",
     publishedAt: "11 hrs",
     description:
@@ -96,6 +99,7 @@ export const events = [
     dateAndTime: "Thu, Oct 5, 2023 03:00 PM",
     address: "8 Rue de la Grande Chaumière, 75006 Paris, France",
     language: "French",
+    speaker: "Dr. Michael Anderson",
     fees: "50",
     publishedAt: "23 hrs",
     description:
@@ -122,6 +126,7 @@ export const events = [
     dateAndTime: "Sat, Nov 18, 2023 09:30 AM",
     address: "500 Howard St, San Francisco, CA 94105",
     language: "English",
+    speaker: "Prof. Sarah Thompson",
     fees: "Free",
     publishedAt: "1 day",
     description:
@@ -149,6 +154,7 @@ export const events = [
     dateAndTime: "Sat, Dec 2, 2023 11:00 AM",
     address: "Southbank Centre, Belvedere Rd, Bishop's, London SE1 8XX, UK",
     language: "English",
+    speaker: "Dr. John Roberts",
     fees: "20",
     publishedAt: "2 days",
     description:
@@ -178,6 +184,7 @@ export const events = [
     dateAndTime: "Sat, Jan 14, 2024 04:00 PM",
     address: "Zilker Park, 2100 Barton Springs Rd, Austin, TX 78704",
     language: "Spanish",
+    speaker: "Prof. Elizabeth Lewis ",
     fees: "75",
     publishedAt: "3 days",
     description:
@@ -207,6 +214,7 @@ export const events = [
     dateAndTime: "Mon, Feb 26, 2024 07:00 AM",
     address: "33 Cross St, Double Bay NSW 2028, Australia",
     language: "English",
+    speaker: "Dr. Alex Turner",
     fees: "45",
     publishedAt: "4 days",
     description:
@@ -236,6 +244,7 @@ export const events = [
     dateAndTime: "Sat, Mar 10, 2024 03:30 PM",
     address: "123 Yonge St, Toronto, ON M5C 1W4, Canada",
     language: "English",
+    speaker: "Jane Smith",
     fees: "Free",
     publishedAt: "5 days",
     description:
@@ -265,6 +274,7 @@ export const events = [
     dateAndTime: "Sun, Apr 22, 2024 10:00 AM",
     address: "Marina Bay Sands, 10 Bayfront Ave, Singapore 018956",
     language: "English",
+    speaker: "Dr. Mark Williams ",
     fees: "65",
     publishedAt: "6 days",
     description:
@@ -292,6 +302,7 @@ export const events = [
     genres: ["Technology", "Movies", "Games"],
     eventMode: "Online",
     dateAndTime: "Thu, Mar 9, 2023 02:00 PM USA Time",
+    speaker: "Yui Ronald",
     address: "310 S. Main, Floor 12Salt Lake City, UT 84101",
     language: "English",
     fees: "50",
@@ -303,7 +314,7 @@ export const events = [
     universityLogo:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgoZe_66uCQPO65NLVlx0FMrGcwqOf5pe37A&usqp=CAU",
     eventDay: ["9 March", "10 March", "11 March"],
-    evenSchedule: {
+    eventSchedule: {
       dayOne: [
         {
           id: 1,

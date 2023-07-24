@@ -16,6 +16,7 @@ const eventSlice = createSlice({
       );
       state.singleEvent = singleEvent;
     },
+
     setSearchQuery: (state, action) => {
       const searchQuery = action.payload.toLowerCase();
       const filteredEvents = events.filter((event) =>
@@ -23,16 +24,18 @@ const eventSlice = createSlice({
       );
       state.events = filteredEvents;
     },
+
     setLoading: (state, action) => {
       state.loading = action.payload;
     },
+
     setDay: (state, action) => {
       if (action.payload === 1) {
-        state.day = state.singleEvent.evenSchedule.dayOne;
+        state.day = state.singleEvent.eventSchedule.dayOne;
       } else if (action.payload === 2) {
-        state.day = state.singleEvent.evenSchedule.dayTwo;
+        state.day = state.singleEvent.eventSchedule.dayTwo;
       } else if (action.payload === 3) {
-        state.day = state.singleEvent.evenSchedule.dayThree;
+        state.day = state.singleEvent.eventSchedule.dayThree;
       }
     },
   },

@@ -1,10 +1,12 @@
 import React from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { MdLocationOn, MdOutlineWatchLater } from "react-icons/md";
 import { AiOutlineCalendar } from "react-icons/ai";
+import { setEvent } from "../redux/features/eventSlice";
 
 const AllEvents = () => {
   const { events } = useSelector((state) => state.events);
+  const dispatch = useDispatch();
 
   if (events.length < 1) {
     return (
@@ -31,6 +33,7 @@ const AllEvents = () => {
           <div
             key={id}
             className="p-4 rounded-lg bg-white border-[1px] border-gray-300 flex flex-col gap-2 cursor-pointer"
+            onClick={() => dispatch(setEvent(id))}
           >
             <h1 className="font-bold text-xl">{title}</h1>
             <div className="flex items-center justify-between text-gray-500 font-medium">
