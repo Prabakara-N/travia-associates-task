@@ -52,8 +52,10 @@ const DayEvents = () => {
                           />
                         </div>
                         <div className="text-sm">
-                          <p className="font-medium text-xs">{speakerName}</p>
-                          <small>{speakerSocialMediaName}</small>
+                          <p className="font-semibold text-xs">{speakerName}</p>
+                          <small className="text-gray-500">
+                            {speakerSocialMediaName}
+                          </small>
                         </div>
                       </div>
                     );
