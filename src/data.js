@@ -1956,7 +1956,7 @@ export const events = [
     address: "123 Yonge St, Toronto, ON M5C 1W4, Canada",
     language: "English",
     speaker: "Jane Smith",
-    fees: "Free",
+    fees: "50",
     publishedAt: "5 days",
     description:
       "Journey into the realms of sci-fi wonders with our Science Fiction Book Club on March 10, 2024. Engage in lively discussions and book recommendations at 123 Yonge St, Toronto, ON M5C 1W4, Canada. Join the English-speaking club, hosted by the avid sci-fi fan, David Chen, for a thrilling literary experience that's free for all enthusiasts.",
@@ -2211,69 +2211,70 @@ export const events = [
       dayOne: [
         {
           id: 1,
-          starTtime: "11:00 AM",
-          endTime: "12:00 PM",
+          startTime: "4:00 PM",
+          endTime: "5:00 PM",
           content:
-            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Discover the hidden mysteries of Ancient History.",
           speakers: [
             {
               id: 1,
-              speakerName: "Yui Ronald",
-              speakerSocialMediaName: "@yuironald",
+              speakerName: "Christopher Brown",
+              speakerSocialMediaName: "@chrisbrown",
               speakerProfile:
-                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+                "https://www.blueskypsychology.com.au/wp-content/uploads/2016/11/IMG_4006-4.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Isabella Martinez",
+              speakerSocialMediaName: "@isabellamartinez",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1587066308595-c3c8a1f413c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80",
             },
           ],
         },
         {
           id: 2,
-          starTtime: "12:00 AM",
-          endTime: "3:00 PM",
+          startTime: "6:00 PM",
+          endTime: "7:00 PM",
           content:
-            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+            "Unravel the human mind in this Psychology Workshop.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
           speakers: [
             {
               id: 1,
-              speakerName: "Bob John",
-              speakerSocialMediaName: "@bobjohn",
-              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+              speakerName: "Robert Johnson",
+              speakerSocialMediaName: "@robertjohnson",
+              speakerProfile:
+                "https://photos.psychologytoday.com/c3521ea6-ccc9-4228-9e19-1936609307e6/2/320x400.jpeg",
             },
             {
               id: 2,
-              speakerName: "Yui Ronald",
-              speakerSocialMediaName: "@yuironald",
+              speakerName: "Olivia Taylor",
+              speakerSocialMediaName: "@oliviataylor",
               speakerProfile:
-                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
-            },
-            {
-              id: 3,
-              speakerName: "Emma Satoshi",
-              speakerSocialMediaName: "@emmasatoshi",
-              speakerProfile:
-                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+                "https://images.unsplash.com/photo-1587066308595-c3c8a1f413c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80",
             },
           ],
         },
         {
           id: 3,
-          startTime: "2:00 PM",
-          endTime: "3:00 PM",
+          startTime: "3:30 PM",
+          endTime: "4:30 PM",
           content:
-            "Explore the world of Artificial Intelligence and its applications.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Explore the fascinating world of Astrophysics.",
           speakers: [
             {
               id: 1,
-              speakerName: "David Lee",
-              speakerSocialMediaName: "@davidlee",
+              speakerName: "Andrew White",
+              speakerSocialMediaName: "@andrewwhite",
               speakerProfile:
-                "https://images.unsplash.com/photo-1600603406200-5b2a104684ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80",
+                "https://photos.psychologytoday.com/c3521ea6-ccc9-4228-9e19-1936609307e6/2/320x400.jpeg",
             },
             {
               id: 2,
-              speakerName: "Sophia Chen",
-              speakerSocialMediaName: "@sophiachen",
+              speakerName: "Olivia Harris",
+              speakerSocialMediaName: "@oliviaharris",
               speakerProfile:
-                "https://images.unsplash.com/photo-1606259107727-9e387ce14d5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80",
+                "https://seedpsychology.com.au/wp-content/uploads/2018/09/Damian-profile-pic-square.jpg",
             },
           ],
         },
