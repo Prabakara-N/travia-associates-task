@@ -6,7 +6,6 @@ const eventSlice = createSlice({
   initialState: {
     events: events,
     singleEvent: {},
-    loading: false,
     day: [],
     selectedDay: 1,
   },
@@ -26,10 +25,6 @@ const eventSlice = createSlice({
       state.events = filteredEvents;
     },
 
-    setLoading: (state, action) => {
-      state.loading = action.payload;
-    },
-
     setDay: (state, action) => {
       if (action.payload === 1) {
         state.day = state.singleEvent.eventSchedule.dayOne;
@@ -47,5 +42,5 @@ const eventSlice = createSlice({
 });
 
 export default eventSlice.reducer;
-export const { setEvent, setSearchQuery, setLoading, setDay, setSelectedDay } =
+export const { setEvent, setSearchQuery, setDay, setSelectedDay } =
   eventSlice.actions;
