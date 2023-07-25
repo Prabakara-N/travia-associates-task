@@ -37,6 +37,7 @@ const eventSlice = createSlice({
       } else if (action.payload === 3) {
         state.day = state.singleEvent.eventSchedule.dayThree;
       }
+      // state.day = action.payload;
     },
   },
 });
