@@ -22,12 +22,12 @@ const DayEvents = () => {
         </thead>
         <tbody className="bg-white divide-y divide-gray-200 rounded-br-lg rounded-bl-lg">
           {day.map((eventDay) => {
-            const { id, starTtime, endTime, content, speakers } = eventDay;
+            const { id, startTime, endTime, content, speakers } = eventDay;
             return (
               <tr key={id} className="flex items-center gap-8 w-full">
                 <td className="px-6 py-4">
                   <div className="flex flex-col gap-2 text-[0.9rem] text-gray-500">
-                    <p>{`${starTtime} to`}</p>
+                    <p>{`${startTime} to`}</p>
                     <p>{endTime}</p>
                   </div>
                 </td>
