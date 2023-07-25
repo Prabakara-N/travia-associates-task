@@ -52,3 +52,25 @@ body {
 .desc-list {
   list-style: disc;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  display: block;
+}
+
+th {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  flex: 1; /* Make the header cells take equal space */
+}
+
+th,
+td {
+  padding: 16px;
+}

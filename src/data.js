@@ -260,6 +260,221 @@ export const events = [
     universityLogo:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm6wuZ8u8mOhUixeGFMIfSuwoRi6FuUIWFsw&usqp=CAU",
     eventDay: ["8 August", "9 August", "10 August"],
+    eventSchedule: {
+      dayOne: [
+        {
+          id: 1,
+          startTime: "9:00 AM",
+          endTime: "10:00 AM",
+          content:
+            "Join the discussion on Climate Change and Sustainability.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sarah Adams",
+              speakerSocialMediaName: "@sarahadams",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1606259107727-9e387ce14d5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Daniel Wilson",
+              speakerSocialMediaName: "@danielwilson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+          ],
+        },
+        {
+          id: 2,
+          startTime: "2:30 PM",
+          endTime: "3:30 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Discover the art of Creative Writing and Storytelling.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Laura Turner",
+              speakerSocialMediaName: "@lauraturner",
+              speakerProfile:
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcResERrY-5QwJ2u19BlFVdTDe9IYHzvFoHBEHB1LmwZ0Gn_rSgPqxB4DldlbrNUHLFh4s0&usqp=CAU",
+            },
+            {
+              id: 2,
+              speakerName: "Henry Scott",
+              speakerSocialMediaName: "@henryscott",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "11:30 AM",
+          endTime: "12:30 PM",
+          content:
+            "Explore the world of Photography and Visual Storytelling.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Emily Johnson",
+              speakerSocialMediaName: "@emilyjohnson",
+              speakerProfile:
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7JjU3D9uuR_TNxy6S0-iFB8ToezGa2UKMTjXehJD5iGUHa96rVd7InoNJPBmbra4j2Ws&usqp=CAU",
+            },
+            {
+              id: 2,
+              speakerName: "Michael Davis",
+              speakerSocialMediaName: "@michaeldavis",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+
+      dayTwo: [
+        {
+          id: 1,
+          startTime: "4:00 PM",
+          endTime: "5:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Discover the hidden mysteries of Ancient History.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Christopher Brown",
+              speakerSocialMediaName: "@chrisbrown",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Isabella Martinez",
+              speakerSocialMediaName: "@isabellamartinez",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1605434700731-331ca2458a77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            },
+          ],
+        },
+        {
+          id: 2,
+          startTime: "6:00 PM",
+          endTime: "7:00 PM",
+          content:
+            "Unravel the human mind in this Psychology Workshop.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Robert Johnson",
+              speakerSocialMediaName: "@robertjohnson",
+              speakerProfile:
+                "https://img.freepik.com/premium-photo/bearded-young-man_298317-313.jpg?w=360",
+            },
+            {
+              id: 2,
+              speakerName: "Olivia Taylor",
+              speakerSocialMediaName: "@oliviataylor",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1569577988556-1c32c58a52ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8ODk1NTg3MXx8ZW58MHx8fHx8&auto=format&fit=crop&w=420&q=60",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "3:30 PM",
+          endTime: "4:30 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Explore the fascinating world of Astrophysics.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Andrew White",
+              speakerSocialMediaName: "@andrewwhite",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1683811200947-08128becd670?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Olivia Harris",
+              speakerSocialMediaName: "@oliviaharris",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+      dayThree: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 3,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "2:00 PM",
+          endTime: "3:00 PM",
+          content:
+            "Explore the world of Artificial Intelligence and its applications.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "David Lee",
+              speakerSocialMediaName: "@davidlee",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Sophia Chen",
+              speakerSocialMediaName: "@sophiachen",
+              speakerProfile:
+                "https://media.istockphoto.com/id/175847565/photo/blonde-girl-smiling.jpg?s=612x612&w=0&k=20&c=zLDYPNonT1YDNJel5xtX5Ecnhsk2-Z8CJdjSksxjOoI=",
+            },
+          ],
+        },
+      ],
+    },
   },
 
   {
@@ -288,6 +503,221 @@ export const events = [
     universityLogo:
       "https://admissions.ucr.edu/sites/default/files/styles/form_preview/public/2018-10/MIT_logo.png?itok=WQCSa0Re",
     eventDay: ["20 September", "21 September", "10 September"],
+    eventSchedule: {
+      dayOne: [
+        {
+          id: 1,
+          startTime: "9:00 AM",
+          endTime: "10:00 AM",
+          content:
+            "Join the discussion on Climate Change and Sustainability.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sarah Adams",
+              speakerSocialMediaName: "@sarahadams",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1606259107727-9e387ce14d5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Daniel Wilson",
+              speakerSocialMediaName: "@danielwilson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+          ],
+        },
+        {
+          id: 2,
+          startTime: "2:30 PM",
+          endTime: "3:30 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Discover the art of Creative Writing and Storytelling.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Laura Turner",
+              speakerSocialMediaName: "@lauraturner",
+              speakerProfile:
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcResERrY-5QwJ2u19BlFVdTDe9IYHzvFoHBEHB1LmwZ0Gn_rSgPqxB4DldlbrNUHLFh4s0&usqp=CAU",
+            },
+            {
+              id: 2,
+              speakerName: "Henry Scott",
+              speakerSocialMediaName: "@henryscott",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "11:30 AM",
+          endTime: "12:30 PM",
+          content:
+            "Explore the world of Photography and Visual Storytelling.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Emily Johnson",
+              speakerSocialMediaName: "@emilyjohnson",
+              speakerProfile:
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7JjU3D9uuR_TNxy6S0-iFB8ToezGa2UKMTjXehJD5iGUHa96rVd7InoNJPBmbra4j2Ws&usqp=CAU",
+            },
+            {
+              id: 2,
+              speakerName: "Michael Davis",
+              speakerSocialMediaName: "@michaeldavis",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+      dayTwo: [
+        {
+          id: 1,
+          startTime: "9:00 AM",
+          endTime: "10:00 AM",
+          content:
+            "Join the discussion on Climate Change and Sustainability.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sarah Adams",
+              speakerSocialMediaName: "@sarahadams",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1659333092645-0da4df62daa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Daniel Wilson",
+              speakerSocialMediaName: "@danielwilson",
+              speakerProfile:
+                "https://us.123rf.com/450wm/zoomteam/zoomteam1607/zoomteam160700284/59807073-spring-woman-in-green-garden-enjoying-the-sunny-day.jpg?ver=6",
+            },
+          ],
+        },
+        {
+          id: 2,
+          startTime: "2:30 PM",
+          endTime: "3:30 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Discover the art of Creative Writing and Storytelling.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Laura Turner",
+              speakerSocialMediaName: "@lauraturner",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1659333092645-0da4df62daa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Henry Scott",
+              speakerSocialMediaName: "@henryscott",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "11:30 AM",
+          endTime: "12:30 PM",
+          content:
+            "Explore the world of Photography and Visual Storytelling.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Emily Johnson",
+              speakerSocialMediaName: "@emilyjohnson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1589650054631-4c7999a4cb76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Michael Davis",
+              speakerSocialMediaName: "@michaeldavis",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+
+      dayThree: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 3,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "2:00 PM",
+          endTime: "3:00 PM",
+          content:
+            "Explore the world of Artificial Intelligence and its applications.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "David Lee",
+              speakerSocialMediaName: "@davidlee",
+              speakerProfile:
+                "https://www.compass.com/m3/d62d8a1bee0276a9473a91b9202f4860d83dde2d/300x300.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Sophia Chen",
+              speakerSocialMediaName: "@sophiachen",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1589650054631-4c7999a4cb76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+    },
   },
 
   {
@@ -316,6 +746,213 @@ export const events = [
     universityLogo:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Oxford-University-Circlet.svg/1636px-Oxford-University-Circlet.svg.png",
     eventDay: ["5 October", "6 October", "7 October"],
+    eventSchedule: {
+      dayOne: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 3,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          starTtime: "3:00 AM",
+          endTime: "4:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sasha Jackson",
+              speakerSocialMediaName: "@sasha-jackson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Diana Brock",
+              speakerSocialMediaName: "@dianabrock",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+      dayTwo: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          starTtime: "3:00 AM",
+          endTime: "4:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sasha Jackson",
+              speakerSocialMediaName: "@sasha-jackson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Diana Brock",
+              speakerSocialMediaName: "@dianabrock",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+      dayThree: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Diana Brock",
+              speakerSocialMediaName: "@dianabrock",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+
+            {
+              id: 3,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          starTtime: "3:00 AM",
+          endTime: "4:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sasha Jackson",
+              speakerSocialMediaName: "@sasha-jackson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+      ],
+    },
   },
 
   {
@@ -343,6 +980,222 @@ export const events = [
     universityLogo:
       "https://historyprogram.commons.gc.cuny.edu/files/2016/09/Yales-logo.jpg",
     eventDay: ["18 November", "19 November", "20 November"],
+    eventSchedule: {
+      dayOne: [
+        {
+          id: 1,
+          startTime: "9:00 AM",
+          endTime: "10:00 AM",
+          content:
+            "Join the discussion on Climate Change and Sustainability.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sarah Adams",
+              speakerSocialMediaName: "@sarahadams",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1606259107727-9e387ce14d5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Daniel Wilson",
+              speakerSocialMediaName: "@danielwilson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+          ],
+        },
+        {
+          id: 2,
+          startTime: "2:30 PM",
+          endTime: "3:30 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Discover the art of Creative Writing and Storytelling.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Laura Turner",
+              speakerSocialMediaName: "@lauraturner",
+              speakerProfile:
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcResERrY-5QwJ2u19BlFVdTDe9IYHzvFoHBEHB1LmwZ0Gn_rSgPqxB4DldlbrNUHLFh4s0&usqp=CAU",
+            },
+            {
+              id: 2,
+              speakerName: "Henry Scott",
+              speakerSocialMediaName: "@henryscott",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "11:30 AM",
+          endTime: "12:30 PM",
+          content:
+            "Explore the world of Photography and Visual Storytelling.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Emily Johnson",
+              speakerSocialMediaName: "@emilyjohnson",
+              speakerProfile:
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7JjU3D9uuR_TNxy6S0-iFB8ToezGa2UKMTjXehJD5iGUHa96rVd7InoNJPBmbra4j2Ws&usqp=CAU",
+            },
+            {
+              id: 2,
+              speakerName: "Michael Davis",
+              speakerSocialMediaName: "@michaeldavis",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+
+      dayTwo: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 3,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "2:00 PM",
+          endTime: "3:00 PM",
+          content:
+            "Explore the world of Artificial Intelligence and its applications.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "David Lee",
+              speakerSocialMediaName: "@davidlee",
+              speakerProfile:
+                "https://www.compass.com/m3/d62d8a1bee0276a9473a91b9202f4860d83dde2d/300x300.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Sophia Chen",
+              speakerSocialMediaName: "@sophiachen",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1589650054631-4c7999a4cb76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+
+      dayThree: [
+        {
+          id: 1,
+          startTime: "4:00 PM",
+          endTime: "5:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Discover the hidden mysteries of Ancient History.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Christopher Brown",
+              speakerSocialMediaName: "@chrisbrown",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Isabella Martinez",
+              speakerSocialMediaName: "@isabellamartinez",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1605434700731-331ca2458a77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            },
+          ],
+        },
+        {
+          id: 2,
+          startTime: "6:00 PM",
+          endTime: "7:00 PM",
+          content:
+            "Unravel the human mind in this Psychology Workshop.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Robert Johnson",
+              speakerSocialMediaName: "@robertjohnson",
+              speakerProfile:
+                "https://img.freepik.com/premium-photo/bearded-young-man_298317-313.jpg?w=360",
+            },
+            {
+              id: 2,
+              speakerName: "Olivia Taylor",
+              speakerSocialMediaName: "@oliviataylor",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1569577988556-1c32c58a52ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8ODk1NTg3MXx8ZW58MHx8fHx8&auto=format&fit=crop&w=420&q=60",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "3:30 PM",
+          endTime: "4:30 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Explore the fascinating world of Astrophysics.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Andrew White",
+              speakerSocialMediaName: "@andrewwhite",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1683811200947-08128becd670?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Olivia Harris",
+              speakerSocialMediaName: "@oliviaharris",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+    },
   },
 
   {
@@ -371,6 +1224,213 @@ export const events = [
     universityLogo:
       "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Seal_of_the_California_Institute_of_Technology.svg/800px-Seal_of_the_California_Institute_of_Technology.svg.png",
     eventDay: ["2 December", "3 December", "4 December"],
+    eventSchedule: {
+      dayOne: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 3,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          starTtime: "3:00 AM",
+          endTime: "4:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sasha Jackson",
+              speakerSocialMediaName: "@sasha-jackson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Diana Brock",
+              speakerSocialMediaName: "@dianabrock",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+      dayTwo: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          starTtime: "3:00 AM",
+          endTime: "4:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sasha Jackson",
+              speakerSocialMediaName: "@sasha-jackson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Diana Brock",
+              speakerSocialMediaName: "@dianabrock",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+      dayThree: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Diana Brock",
+              speakerSocialMediaName: "@dianabrock",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+
+            {
+              id: 3,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          starTtime: "3:00 AM",
+          endTime: "4:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sasha Jackson",
+              speakerSocialMediaName: "@sasha-jackson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+      ],
+    },
   },
 
   {
@@ -401,6 +1461,221 @@ export const events = [
     universityLogo:
       "https://logos-world.net/wp-content/uploads/2023/02/Princeton-University-Seal-Logo-1896.png",
     eventDay: ["14 January", "15 January", "16 January"],
+    eventSchedule: {
+      dayOne: [
+        {
+          id: 1,
+          startTime: "4:00 PM",
+          endTime: "5:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Discover the hidden mysteries of Ancient History.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Christopher Brown",
+              speakerSocialMediaName: "@chrisbrown",
+              speakerProfile:
+                "https://www.blueskypsychology.com.au/wp-content/uploads/2016/11/IMG_4006-4.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Isabella Martinez",
+              speakerSocialMediaName: "@isabellamartinez",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1587066308595-c3c8a1f413c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+          ],
+        },
+        {
+          id: 2,
+          startTime: "6:00 PM",
+          endTime: "7:00 PM",
+          content:
+            "Unravel the human mind in this Psychology Workshop.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Robert Johnson",
+              speakerSocialMediaName: "@robertjohnson",
+              speakerProfile:
+                "https://photos.psychologytoday.com/c3521ea6-ccc9-4228-9e19-1936609307e6/2/320x400.jpeg",
+            },
+            {
+              id: 2,
+              speakerName: "Olivia Taylor",
+              speakerSocialMediaName: "@oliviataylor",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1587066308595-c3c8a1f413c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "3:30 PM",
+          endTime: "4:30 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Explore the fascinating world of Astrophysics.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Andrew White",
+              speakerSocialMediaName: "@andrewwhite",
+              speakerProfile:
+                "https://photos.psychologytoday.com/c3521ea6-ccc9-4228-9e19-1936609307e6/2/320x400.jpeg",
+            },
+            {
+              id: 2,
+              speakerName: "Olivia Harris",
+              speakerSocialMediaName: "@oliviaharris",
+              speakerProfile:
+                "https://seedpsychology.com.au/wp-content/uploads/2018/09/Damian-profile-pic-square.jpg",
+            },
+          ],
+        },
+      ],
+      dayTwo: [
+        {
+          id: 1,
+          startTime: "9:00 AM",
+          endTime: "10:00 AM",
+          content:
+            "Join the discussion on Climate Change and Sustainability.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sarah Adams",
+              speakerSocialMediaName: "@sarahadams",
+              speakerProfile:
+                "https://media.istockphoto.com/id/175202632/photo/smiling-young-woman.webp?s=170667a&w=0&k=20&c=Z4vUhsFm3jCebus-wjOSS1AkoaFPMqgsV65innR9rl8=",
+            },
+            {
+              id: 2,
+              speakerName: "Daniel Wilson",
+              speakerSocialMediaName: "@danielwilson",
+              speakerProfile:
+                "https://www.classicaloasis.com/wp-content/uploads/2014/03/profile-square.jpg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          startTime: "2:30 PM",
+          endTime: "3:30 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Discover the art of Creative Writing and Storytelling.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Laura Turner",
+              speakerSocialMediaName: "@lauraturner",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1574701739441-7d2cc5e7d412?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGpldW5lfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Henry Scott",
+              speakerSocialMediaName: "@henryscott",
+              speakerProfile:
+                "https://www.kingrosales.com/wp-content/uploads/2018/05/king-rosales-profile-photo-square.jpg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "11:30 AM",
+          endTime: "12:30 PM",
+          content:
+            "Explore the world of Photography and Visual Storytelling.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Emily Johnson",
+              speakerSocialMediaName: "@emilyjohnson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1553467659-c750d61d675a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Michael Davis",
+              speakerSocialMediaName: "@michaeldavis",
+              speakerProfile:
+                "https://profilemagazine.com/wp-content/uploads/2020/04/Ajmere-Dale-Square-thumbnail.jpg",
+            },
+          ],
+        },
+      ],
+
+      dayThree: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 3,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "2:00 PM",
+          endTime: "3:00 PM",
+          content:
+            "Explore the world of Artificial Intelligence and its applications.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "David Lee",
+              speakerSocialMediaName: "@davidlee",
+              speakerProfile:
+                "https://www.sony.eu/alphauniverse/assets/resized/2020/10/Julien-Mauve-profile_square_291x291.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Sophia Chen",
+              speakerSocialMediaName: "@sophiachen",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1590358692550-5e9cc28a0e5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+    },
   },
 
   {
@@ -431,6 +1706,219 @@ export const events = [
     universityLogo:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Coat_of_Arms_of_the_University_of_Cambridge.svg/1200px-Coat_of_Arms_of_the_University_of_Cambridge.svg.png",
     eventDay: ["26 February", "27 February", "28 February"],
+    eventSchedule: {
+      dayOne: [
+        {
+          id: 1,
+          startTime: "9:00 AM",
+          endTime: "10:00 AM",
+          content:
+            "Join the discussion on Climate Change and Sustainability.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sarah Adams",
+              speakerSocialMediaName: "@sarahadams",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1606259107727-9e387ce14d5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Daniel Wilson",
+              speakerSocialMediaName: "@danielwilson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+          ],
+        },
+        {
+          id: 2,
+          startTime: "2:30 PM",
+          endTime: "3:30 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Discover the art of Creative Writing and Storytelling.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Laura Turner",
+              speakerSocialMediaName: "@lauraturner",
+              speakerProfile:
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcResERrY-5QwJ2u19BlFVdTDe9IYHzvFoHBEHB1LmwZ0Gn_rSgPqxB4DldlbrNUHLFh4s0&usqp=CAU",
+            },
+            {
+              id: 2,
+              speakerName: "Henry Scott",
+              speakerSocialMediaName: "@henryscott",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "11:30 AM",
+          endTime: "12:30 PM",
+          content:
+            "Explore the world of Photography and Visual Storytelling.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Emily Johnson",
+              speakerSocialMediaName: "@emilyjohnson",
+              speakerProfile:
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7JjU3D9uuR_TNxy6S0-iFB8ToezGa2UKMTjXehJD5iGUHa96rVd7InoNJPBmbra4j2Ws&usqp=CAU",
+            },
+            {
+              id: 2,
+              speakerName: "Michael Davis",
+              speakerSocialMediaName: "@michaeldavis",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+
+      dayTwo: [
+        {
+          id: 1,
+          startTime: "4:00 PM",
+          endTime: "5:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Discover the hidden mysteries of Ancient History.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Christopher Brown",
+              speakerSocialMediaName: "@chrisbrown",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Isabella Martinez",
+              speakerSocialMediaName: "@isabellamartinez",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1605434700731-331ca2458a77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            },
+          ],
+        },
+        {
+          id: 2,
+          startTime: "6:00 PM",
+          endTime: "7:00 PM",
+          content:
+            "Unravel the human mind in this Psychology Workshop.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Robert Johnson",
+              speakerSocialMediaName: "@robertjohnson",
+              speakerProfile:
+                "https://img.freepik.com/premium-photo/bearded-young-man_298317-313.jpg?w=360",
+            },
+            {
+              id: 2,
+              speakerName: "Olivia Taylor",
+              speakerSocialMediaName: "@oliviataylor",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1569577988556-1c32c58a52ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8ODk1NTg3MXx8ZW58MHx8fHx8&auto=format&fit=crop&w=420&q=60",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "3:30 PM",
+          endTime: "4:30 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Explore the fascinating world of Astrophysics.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Andrew White",
+              speakerSocialMediaName: "@andrewwhite",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1683811200947-08128becd670?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Olivia Harris",
+              speakerSocialMediaName: "@oliviaharris",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+      dayThree: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 3,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "2:00 PM",
+          endTime: "3:00 PM",
+          content:
+            "Explore the world of Artificial Intelligence and its applications.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "David Lee",
+              speakerSocialMediaName: "@davidlee",
+              speakerProfile: "https://example.com/speakers/davidlee.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Sophia Chen",
+              speakerSocialMediaName: "@sophiachen",
+              speakerProfile: "https://example.com/speakers/sophiachen.jpg",
+            },
+          ],
+        },
+      ],
+    },
   },
 
   {
@@ -461,6 +1949,213 @@ export const events = [
     universityLogo:
       "https://admissions.ucr.edu/sites/default/files/styles/form_preview/public/2020-07/ucr-education-logo-columbia-university.png?itok=-0FD6Ma2",
     eventDay: ["10 March", "11 March", "12 March"],
+    eventSchedule: {
+      dayOne: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 3,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          starTtime: "3:00 AM",
+          endTime: "4:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sasha Jackson",
+              speakerSocialMediaName: "@sasha-jackson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Diana Brock",
+              speakerSocialMediaName: "@dianabrock",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+      dayTwo: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          starTtime: "3:00 AM",
+          endTime: "4:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sasha Jackson",
+              speakerSocialMediaName: "@sasha-jackson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Diana Brock",
+              speakerSocialMediaName: "@dianabrock",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+      dayThree: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Diana Brock",
+              speakerSocialMediaName: "@dianabrock",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+
+            {
+              id: 3,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          starTtime: "3:00 AM",
+          endTime: "4:00 PM",
+          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sasha Jackson",
+              speakerSocialMediaName: "@sasha-jackson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+      ],
+    },
   },
 
   {
@@ -491,6 +2186,220 @@ export const events = [
     universityLogo:
       "https://gistbok.ucgis.org/sites/default/files/document-sharing-form-files/209/uchicago.jpg",
     eventDay: ["22 April", "23 April", "24 April"],
+    eventSchedule: {
+      dayOne: [
+        {
+          id: 1,
+          starTtime: "11:00 AM",
+          endTime: "12:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          starTtime: "12:00 AM",
+          endTime: "3:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Bob John",
+              speakerSocialMediaName: "@bobjohn",
+              speakerProfile: "https://pbs.twimg.com/media/BduTxWnIUAAKT_5.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Yui Ronald",
+              speakerSocialMediaName: "@yuironald",
+              speakerProfile:
+                "https://xsgames.co/randomusers/assets/avatars/male/74.jpg",
+            },
+            {
+              id: 3,
+              speakerName: "Emma Satoshi",
+              speakerSocialMediaName: "@emmasatoshi",
+              speakerProfile:
+                "https://thenewcode.com/assets/images/thumbnails/sarah-parmenter.jpeg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "2:00 PM",
+          endTime: "3:00 PM",
+          content:
+            "Explore the world of Artificial Intelligence and its applications.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "David Lee",
+              speakerSocialMediaName: "@davidlee",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1600603406200-5b2a104684ac?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Sophia Chen",
+              speakerSocialMediaName: "@sophiachen",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1606259107727-9e387ce14d5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+      dayTwo: [
+        {
+          id: 1,
+          startTime: "4:00 PM",
+          endTime: "5:00 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Discover the hidden mysteries of Ancient History.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Christopher Brown",
+              speakerSocialMediaName: "@chrisbrown",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Isabella Martinez",
+              speakerSocialMediaName: "@isabellamartinez",
+              speakerProfile:
+                "https://thumbs.dreamstime.com/b/laughing-woman-4137527.jpg",
+            },
+          ],
+        },
+        {
+          id: 2,
+          startTime: "6:00 PM",
+          endTime: "7:00 PM",
+          content:
+            "Unravel the human mind in this Psychology Workshop.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Robert Johnson",
+              speakerSocialMediaName: "@robertjohnson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1634999752255-18e990af12f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Olivia Taylor",
+              speakerSocialMediaName: "@oliviataylor",
+              speakerProfile:
+                "https://thumbs.dreamstime.com/b/laughing-woman-4137527.jpg",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "3:30 PM",
+          endTime: "4:30 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.Explore the fascinating world of Astrophysics.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Andrew White",
+              speakerSocialMediaName: "@andrewwhite",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Olivia Harris",
+              speakerSocialMediaName: "@oliviaharris",
+              speakerProfile:
+                "https://plus.unsplash.com/premium_photo-1661632282344-de5796584dcf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+            },
+          ],
+        },
+      ],
+      dayThree: [
+        {
+          id: 1,
+          startTime: "9:00 AM",
+          endTime: "10:00 AM",
+          content:
+            "Join the discussion on Climate Change and Sustainability.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Sarah Adams",
+              speakerSocialMediaName: "@sarahadams",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1642303826050-b804ae26eed3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Daniel Wilson",
+              speakerSocialMediaName: "@danielwilson",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=1000&q=80",
+            },
+          ],
+        },
+        {
+          id: 2,
+          startTime: "2:30 PM",
+          endTime: "3:30 PM",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit. Discover the art of Creative Writing and Storytelling.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Laura Turner",
+              speakerSocialMediaName: "@lauraturner",
+              speakerProfile:
+                "https://images.unsplash.com/photo-1642303826050-b804ae26eed3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80",
+            },
+            {
+              id: 2,
+              speakerName: "Henry Scott",
+              speakerSocialMediaName: "@henryscott",
+              speakerProfile:
+                "https://img.freepik.com/premium-photo/bearded-young-man_298317-313.jpg?w=360",
+            },
+          ],
+        },
+        {
+          id: 3,
+          startTime: "11:30 AM",
+          endTime: "12:30 PM",
+          content:
+            "Explore the world of Photography and Visual Storytelling.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis blandit.",
+          speakers: [
+            {
+              id: 1,
+              speakerName: "Emily Johnson",
+              speakerSocialMediaName: "@emilyjohnson",
+              speakerProfile:
+                "https://img.freepik.com/premium-photo/man-blue-shirt-fashion_474717-66472.jpg",
+            },
+            {
+              id: 2,
+              speakerName: "Michael Davis",
+              speakerSocialMediaName: "@michaeldavis",
+              speakerProfile:
+                "https://img.freepik.com/premium-photo/bearded-young-man_298317-313.jpg?w=360",
+            },
+          ],
+        },
+      ],
+    },
   },
 
   {

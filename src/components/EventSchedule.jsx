@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useSelector } from "react-redux";
 
 const EventSchedule = () => {
@@ -6,10 +6,6 @@ const EventSchedule = () => {
   const { singleEvent } = useSelector((state) => state.events);
   const { eventDay, eventSchedule } = singleEvent;
   // const { dayOne, dayTwo, dayThree } = eventSchedule;
-
-  // useEffect(() => {
-  //   setSelectedDay(1);
-  // }, []);
 
   return (
     <div>
@@ -33,7 +29,7 @@ const EventSchedule = () => {
               selectedDay === 1 ? "text-orange-500" : "text-gray-400"
             }`}
           >
-            {eventDay[0]}
+            {eventDay && eventDay[0]}
           </small>
         </div>
 
@@ -55,7 +51,7 @@ const EventSchedule = () => {
               selectedDay === 2 ? "text-orange-500" : "text-gray-400"
             }`}
           >
-            {eventDay[1]}
+            {eventDay && eventDay[1]}
           </small>
         </div>
 
@@ -77,7 +73,7 @@ const EventSchedule = () => {
               selectedDay === 3 ? "text-orange-500" : "text-gray-400"
             }`}
           >
-            {eventDay[2]}
+            {eventDay && eventDay[2]}
           </small>
         </div>
       </div>

@@ -3,6 +3,7 @@ import EventInfo from "./EventInfo";
 import Description from "./Description";
 import University from "./University";
 import EventSchedule from "./EventSchedule";
+import DayEvents from "./DayEvents";
 
 const SingleEvent = () => {
   return (
@@ -11,6 +12,7 @@ const SingleEvent = () => {
       <Description />
       <University />
       <EventSchedule />
+      <DayEvents />
     </div>
   );
 };
