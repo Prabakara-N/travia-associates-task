@@ -2,11 +2,19 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { MdLocationOn, MdOutlineWatchLater } from "react-icons/md";
 import { AiOutlineCalendar } from "react-icons/ai";
-import { setEvent } from "../redux/features/eventSlice";
+import { setDay, setEvent } from "../redux/features/eventSlice";
 
 const AllEvents = () => {
-  const { events } = useSelector((state) => state.events);
+  const { events, singleEvent } = useSelector((state) => state.events);
+
   const dispatch = useDispatch();
+
+  const handleChangeEvent = (id) => {
+    dispatch(setEvent(id));
+    if (singleEvent?.eventSchedule && singleEvent.eventSchedule?.dayOne) {
+      dispatch(setDay(1));
+    }
+  };
 
   return (
     <div className="w-[430px] flex flex-col gap-4">
@@ -26,7 +34,7 @@ const AllEvents = () => {
           <div
             key={id}
             className="p-4 rounded-lg bg-white border-[1px] border-gray-300 flex flex-col gap-2 cursor-pointer"
-            onClick={() => dispatch(setEvent(id))}
+            onClick={() => handleChangeEvent(id)}
           >
             <h1 className="font-bold text-xl">{title}</h1>
             <div className="flex items-center justify-between text-gray-500 font-medium">
