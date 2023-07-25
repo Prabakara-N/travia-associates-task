@@ -31,7 +31,8 @@ export const events = [
           id: 1,
           starTtime: "11:00 AM",
           endTime: "12:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          content:
+            "Vestibulum vel eros vel metus lacinia feugiata nec metus.All skill levels are welcome, and the workshop will be conducted in English. Don't miss this opportunity to enhance your web design skills and network with fellow enthusiasts. The registration fee for this workshop is $30.",
           speakers: [
             {
               id: 1,
@@ -75,7 +76,8 @@ export const events = [
           id: 3,
           starTtime: "3:00 AM",
           endTime: "4:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          content:
+            "Vestibulum vel eros vel metus lacinia feugiat a nec metus.All skill levels are welcome, and the workshop will be conducted in English. Don't miss this opportunity to enhance your web design skills and network with fellow enthusiasts. The registration fee for this workshop is $30.",
           speakers: [
             {
               id: 1,
@@ -99,7 +101,8 @@ export const events = [
           id: 1,
           starTtime: "11:00 AM",
           endTime: "12:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          content:
+            "All skill levels are welcome, and the workshop will be conducted in English. Don't miss this opportunity to enhance your web design skills and network with fellow enthusiasts. The registration fee for this workshop is $30.Vestibulum vel eros vel metus lacinia feugiata nec metus.",
           speakers: [
             {
               id: 1,
@@ -167,7 +170,8 @@ export const events = [
           id: 1,
           starTtime: "11:00 AM",
           endTime: "12:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          content:
+            "Vestibulum vel eros vel metus lacinia feugiata nec metus.All skill levels are welcome, and the workshop will be conducted in English. Don't miss this opportunity to enhance your web design skills and network with fellow enthusiasts. The registration fee for this workshop is $30.",
           speakers: [
             {
               id: 1,
@@ -212,7 +216,8 @@ export const events = [
           id: 3,
           starTtime: "3:00 AM",
           endTime: "4:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          content:
+            "All skill levels are welcome, and the workshop will be conducted in English. Don't miss this opportunity to enhance your web design skills and network with fellow enthusiasts. The registration fee for this workshop is $30.Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
           speakers: [
             {
               id: 1,
@@ -752,7 +757,8 @@ export const events = [
           id: 1,
           starTtime: "11:00 AM",
           endTime: "12:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          content:
+            "Vestibulum vel eros vel metus lacinia feugiata nec metus.Beginners and food enthusiasts alike are welcome to join this immersive class, which will be conducted in Italian with translation assistance. Embrace the essence of Italy for just $40.",
           speakers: [
             {
               id: 1,
@@ -796,7 +802,8 @@ export const events = [
           id: 3,
           starTtime: "3:00 AM",
           endTime: "4:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          content:
+            "Beginners and food enthusiasts alike are welcome to join this immersive class, which will be conducted in Italian with translation assistance. Embrace the essence of Italy for just $40.Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
           speakers: [
             {
               id: 1,
@@ -820,7 +827,8 @@ export const events = [
           id: 1,
           starTtime: "11:00 AM",
           endTime: "12:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          content:
+            "Vestibulum vel eros vel metus lacinia feugiata nec metus.Beginners and food enthusiasts alike are welcome to join this immersive class, which will be conducted in Italian with translation assistance. Embrace the essence of Italy for just $40.",
           speakers: [
             {
               id: 1,
@@ -864,7 +872,8 @@ export const events = [
           id: 3,
           starTtime: "3:00 AM",
           endTime: "4:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          content:
+            "Vestibulum vel eros vel metus lacinia feugiat a nec metus.Beginners and food enthusiasts alike are welcome to join this immersive class, which will be conducted in Italian with translation assistance. Embrace the essence of Italy for just $40.",
           speakers: [
             {
               id: 1,
@@ -888,7 +897,8 @@ export const events = [
           id: 1,
           starTtime: "11:00 AM",
           endTime: "12:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          content:
+            "Beginners and food enthusiasts alike are welcome to join this immersive class, which will be conducted in Italian with translation assistance. Embrace the essence of Italy for just $40.Vestibulum vel eros vel metus lacinia feugiata nec metus.",
           speakers: [
             {
               id: 1,
@@ -933,7 +943,8 @@ export const events = [
           id: 3,
           starTtime: "3:00 AM",
           endTime: "4:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          content:
+            "Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
           speakers: [
             {
               id: 1,
@@ -1230,7 +1241,8 @@ export const events = [
           id: 1,
           starTtime: "11:00 AM",
           endTime: "12:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          content:
+            "Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.Vestibulum vel eros vel metus lacinia feugiata nec metus.",
           speakers: [
             {
               id: 1,
@@ -1274,7 +1286,8 @@ export const events = [
           id: 3,
           starTtime: "3:00 AM",
           endTime: "4:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          content:
+            "Vestibulum vel eros vel metus lacinia feugiat a nec metus.Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.",
           speakers: [
             {
               id: 1,
@@ -1298,7 +1311,8 @@ export const events = [
           id: 1,
           starTtime: "11:00 AM",
           endTime: "12:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          content:
+            "Fusce vel egestas dolor. Donec eu augue enim. Donec rutrum non lacus ac rhoncus. Morbi quis luctus leo, nec cursus ex.Vestibulum vel eros vel metus lacinia feugiata nec metus.",
           speakers: [
             {
               id: 1,
@@ -1342,7 +1356,8 @@ export const events = [
           id: 3,
           starTtime: "3:00 AM",
           endTime: "4:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          content:
+            "Vestibulum vel eros vel metus lacinia feugiat a nec metus.Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis.",
           speakers: [
             {
               id: 1,
@@ -1366,7 +1381,8 @@ export const events = [
           id: 1,
           starTtime: "11:00 AM",
           endTime: "12:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          content:
+            "Duis nec sodales nibh. Proin lectus tortor, rutrum vel vulputate vitae, fringilla id magna. Vestibulum ornare eget urna nec pulvinar. Praesent porttitor convallis.Vestibulum vel eros vel metus lacinia feugiata nec metus.",
           speakers: [
             {
               id: 1,
@@ -1955,7 +1971,8 @@ export const events = [
           id: 1,
           starTtime: "11:00 AM",
           endTime: "12:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          content:
+            "Vestibulum vel eros vel metus lacinia feugiata nec metus.Journey into the realms of sci-fi wonders with our Science Fiction Book Club on March 10, 2024. Engage in lively discussions and book recommendations at 123 Yonge St, Toronto.",
           speakers: [
             {
               id: 1,
@@ -1999,7 +2016,8 @@ export const events = [
           id: 3,
           starTtime: "3:00 AM",
           endTime: "4:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          content:
+            "Journey into the realms of sci-fi wonders with our Science Fiction Book Club on March 10, 2024. Engage in lively discussions and book recommendations at 123 Yonge St, Toronto.Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
           speakers: [
             {
               id: 1,
@@ -2023,7 +2041,8 @@ export const events = [
           id: 1,
           starTtime: "11:00 AM",
           endTime: "12:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          content:
+            "Vestibulum vel eros vel metus lacinia feugiata nec metus.Journey into the realms of sci-fi wonders with our Science Fiction Book Club on March 10, 2024. Engage in lively discussions and book recommendations at 123 Yonge St, Toronto.",
           speakers: [
             {
               id: 1,
@@ -2067,7 +2086,8 @@ export const events = [
           id: 3,
           starTtime: "3:00 AM",
           endTime: "4:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          content:
+            "Journey into the realms of sci-fi wonders with our Science Fiction Book Club on March 10, 2024. Engage in lively discussions and book recommendations at 123 Yonge St, Toronto.Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
           speakers: [
             {
               id: 1,
@@ -2136,7 +2156,8 @@ export const events = [
           id: 3,
           starTtime: "3:00 AM",
           endTime: "4:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          content:
+            "Vestibulum vel eros vel metus lacinia feugiat a nec metus.Journey into the realms of sci-fi wonders with our Science Fiction Book Club on March 10, 2024. Engage in lively discussions and book recommendations at 123 Yonge St, Toronto",
           speakers: [
             {
               id: 1,
@@ -2436,7 +2457,8 @@ export const events = [
           id: 1,
           starTtime: "11:00 AM",
           endTime: "12:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          content:
+            "Vestibulum vel eros vel metus lacinia feugiata nec metus.Journey into the realms of sci-fi wonders with our Science Fiction Book Club on March 10, 2024. Engage in lively discussions and book recommendations at 123 Yonge St, Toronto",
           speakers: [
             {
               id: 1,
@@ -2480,7 +2502,8 @@ export const events = [
           id: 3,
           starTtime: "3:00 AM",
           endTime: "4:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          content:
+            "Vestibulum vel eros vel metus lacinia feugiat a nec metus.Journey into the realms of sci-fi wonders with our Science Fiction Book Club on March 10, 2024. Engage in lively discussions and book recommendations at 123 Yonge St, Toronto",
           speakers: [
             {
               id: 1,
@@ -2504,7 +2527,8 @@ export const events = [
           id: 1,
           starTtime: "11:00 AM",
           endTime: "12:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          content:
+            "Journey into the realms of sci-fi wonders with our Science Fiction Book Club on March 10, 2024. Engage in lively discussions and book recommendations at 123 Yonge St, Toronto,Vestibulum vel eros vel metus lacinia feugiata nec metus.",
           speakers: [
             {
               id: 1,
@@ -2548,7 +2572,8 @@ export const events = [
           id: 3,
           starTtime: "3:00 AM",
           endTime: "4:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          content:
+            "Vestibulum vel eros vel metus lacinia feugiat a nec metus.Journey into the realms of sci-fi wonders with our Science Fiction Book Club on March 10, 2024. Engage in lively discussions and book recommendations at 123 Yonge St, Toronto",
           speakers: [
             {
               id: 1,
@@ -2572,7 +2597,8 @@ export const events = [
           id: 1,
           starTtime: "11:00 AM",
           endTime: "12:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiata nec metus.",
+          content:
+            "Journey into the realms of sci-fi wonders with our Science Fiction Book Club on March 10, 2024. Engage in lively discussions and book recommendations at 123 Yonge St, Toronto,Vestibulum vel eros vel metus lacinia feugiata nec metus.",
           speakers: [
             {
               id: 1,
@@ -2617,7 +2643,8 @@ export const events = [
           id: 3,
           starTtime: "3:00 AM",
           endTime: "4:00 PM",
-          content: "Vestibulum vel eros vel metus lacinia feugiat a nec metus.",
+          content:
+            "Vestibulum vel eros vel metus lacinia feugiat a nec metus.Journey into the realms of sci-fi wonders with our Science Fiction Book Club on March 10, 2024. Engage in lively discussions and book recommendations at 123 Yonge St, Toronto",
           speakers: [
             {
               id: 1,
