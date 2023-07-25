@@ -2,18 +2,17 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { MdLocationOn, MdOutlineWatchLater } from "react-icons/md";
 import { AiOutlineCalendar } from "react-icons/ai";
-import { setDay, setEvent } from "../redux/features/eventSlice";
+import { setDay, setEvent, setSelectedDay } from "../redux/features/eventSlice";
 
 const AllEvents = () => {
-  const { events, singleEvent } = useSelector((state) => state.events);
+  const { events } = useSelector((state) => state.events);
 
   const dispatch = useDispatch();
 
   const handleChangeEvent = (id) => {
     dispatch(setEvent(id));
-    if (singleEvent?.eventSchedule && singleEvent.eventSchedule?.dayOne) {
-      dispatch(setDay(1));
-    }
+    dispatch(setDay(1));
+    dispatch(setSelectedDay(1));
   };
 
   return (
