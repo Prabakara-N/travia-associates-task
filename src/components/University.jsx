@@ -7,7 +7,7 @@ const University = () => {
   return (
     <div className="my-8 px-2 md:px-5 flex items-center justify-between w-full">
       <div className="flex items-center gap-4">
-        <div className="w-[80px] h-[80px] rounded-full overflow-hidden ">
+        <div className="w-[65px] h-[65px] md:w-[80px] md:h-[80px] rounded-full overflow-hidden">
           <img src={universityLogo} alt="universityLogo" />
         </div>
         <div className="font-medium">
@@ -17,7 +17,7 @@ const University = () => {
           </p>
         </div>
       </div>
-      <button className="bg-orange-600 px-5 md:px-12 py-[0.4rem] rounded-md font-medium text-white">
+      <button className="bg-orange-600 px-5 md:px-12 py-[0.4rem] text-sm md:text-base rounded-md font-medium text-white">
         Follow
       </button>
     </div>
