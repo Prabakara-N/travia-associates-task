@@ -41,7 +41,7 @@ li {
 
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 body {
@@ -67,7 +67,7 @@ th {
   align-items: center;
   justify-content: space-between;
   padding: 16px;
-  flex: 1; /* Make the header cells take equal space */
+  flex: 1;
 }
 
 th,

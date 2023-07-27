@@ -64,11 +64,7 @@ const AllEvents = () => {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-5">
                 <div className="w-[40px] h-[40px] rounded-full overflow-hidden">
-                  <img
-                    src={authorProfile}
-                    alt="authorprofile"
-                    className="w-full h-full "
-                  />
+                  <img src={authorProfile} alt="authorprofile" />
                 </div>
                 <div>
                   <p className="font-semibold text-sm">{author}</p>

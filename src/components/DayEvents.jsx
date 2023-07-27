@@ -45,11 +45,7 @@ const DayEvents = () => {
                     return (
                       <div key={id} className="flex gap-2">
                         <div className="w-[35px] rounded-full h-[35px] overflow-hidden">
-                          <img
-                            className="w-full h-full"
-                            src={speakerProfile}
-                            alt="speakerProfile"
-                          />
+                          <img src={speakerProfile} alt="speakerProfile" />
                         </div>
                         <div className="text-sm">
                           <p className="font-semibold text-xs">{speakerName}</p>
