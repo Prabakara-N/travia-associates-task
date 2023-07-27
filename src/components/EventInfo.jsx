@@ -48,7 +48,6 @@ const EventInfo = () => {
       {/* generes */}
       <div className="flex items-center gap-4 mt-6">
         {genres &&
-          genres.length > 0 &&
           genres.map((genre, index) => (
             <small
               key={index}
@@ -60,7 +59,7 @@ const EventInfo = () => {
       </div>
 
       {/* eventInfo */}
-      <div className="flex items-center justify-between w-full mt-6">
+      <div className="flex flex-col gap-3 md:gap-0 md:flex-row md:items-center justify-center md:justify-between w-full mt-6">
         <div className="flex items-center gap-5">
           <BiCalendar className="text-2xl text-gray-800" />
           <div>
@@ -84,7 +83,7 @@ const EventInfo = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-between w-full mt-8">
+      <div className="flex flex-col md:flex-row gap-3 md:gap-0 md:items-center md:justify-between w-full mt-8">
         <div className="flex items-center gap-5">
           <GrMapLocation className="text-2xl text-gray-800" />
           <div className="w-[140px]">

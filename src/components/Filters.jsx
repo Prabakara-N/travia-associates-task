@@ -11,12 +11,12 @@ const Filters = () => {
   const [searchEvent, setSearchEvent] = useState("");
   const dispatch = useDispatch();
   return (
-    <div className="flex items-center justify-between ">
-      <div className="flex items-center w-[430px] justify-between">
+    <div className="flex flex-col gap-4 lg:flex-row items-center lg:justify-between">
+      <div className="flex items-center w-full lg:w-[430px] justify-between">
         <div className="py-[0.7rem] px-3 text-gray-500 rounded-md bg-white border-[1px] border-gray-300">
           <FaStream />
         </div>
-        <div className="relative w-[380px]">
+        <div className="relative w-full lg:w-[380px]">
           <RiSearchLine className="absolute top-3 left-2 text-gray-500" />
           <input
             type="text"

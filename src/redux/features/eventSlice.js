@@ -8,6 +8,7 @@ const eventSlice = createSlice({
     singleEvent: {},
     day: [],
     selectedDay: 1,
+    eventDetails: false,
   },
   reducers: {
     setEvent: (state, action) => {
@@ -38,9 +39,18 @@ const eventSlice = createSlice({
     setSelectedDay: (state, action) => {
       state.selectedDay = action.payload;
     },
+
+    setEventDetails: (state, action) => {
+      state.eventDetails = action.payload;
+    },
   },
 });
 
 export default eventSlice.reducer;
-export const { setEvent, setSearchQuery, setDay, setSelectedDay } =
-  eventSlice.actions;
+export const {
+  setEvent,
+  setSearchQuery,
+  setDay,
+  setSelectedDay,
+  setEventDetails,
+} = eventSlice.actions;
