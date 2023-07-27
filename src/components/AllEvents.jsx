@@ -25,7 +25,7 @@ const AllEvents = () => {
     <div
       className={`${
         eventDetails ? "hidden lg:block" : "block lg:block"
-      }w-full lg:w-[430px] flex flex-col gap-4`}
+      } md:w-[430px] lg:block mx-auto flex flex-col gap-4`}
     >
       {events.map((event) => {
         const {
@@ -42,7 +42,7 @@ const AllEvents = () => {
         return (
           <div
             key={id}
-            className="p-4 rounded-lg bg-white border-[1px] border-gray-300 flex flex-col gap-2 cursor-pointer"
+            className="p-4 rounded-lg bg-white border-[1px] border-gray-300 flex flex-col gap-2 lg:mb-4 cursor-pointer"
             onClick={() => handleChangeEvent(id)}
           >
             <h1 className="font-bold text-xl">{title}</h1>

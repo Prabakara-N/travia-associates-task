@@ -5,7 +5,7 @@ const DayEvents = () => {
   const { day } = useSelector((state) => state.events);
 
   return (
-    <div>
+    <div className="overflow-x-scroll md:overflow-auto">
       <table className="mt-6">
         <thead className="bg-orange-100 divide-y w-full rounded-tr-lg rounded-tl-lg">
           <tr className="flex items-center justify-between w-full">
