@@ -14,17 +14,17 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (singleEvent?.eventSchedule && singleEvent.eventSchedule?.dayOne) {
+    if (singleEvent.eventSchedule && singleEvent.eventSchedule.dayOne) {
       dispatch(setDay(1));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [singleEvent]);
 
   return (
-    <div>
+    <>
       <Navbar />
       <Dashboard />
-    </div>
+    </>
   );
 }
 
