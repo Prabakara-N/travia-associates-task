@@ -2,10 +2,15 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { MdLocationOn, MdOutlineWatchLater } from "react-icons/md";
 import { AiOutlineCalendar } from "react-icons/ai";
-import { setDay, setEvent, setSelectedDay } from "../redux/features/eventSlice";
+import {
+  setDay,
+  setEvent,
+  setEventDetails,
+  setSelectedDay,
+} from "../redux/features/eventSlice";
 
 const AllEvents = () => {
-  const { events } = useSelector((state) => state.events);
+  const { events, eventDetails } = useSelector((state) => state.events);
 
   const dispatch = useDispatch();
 
@@ -13,10 +18,15 @@ const AllEvents = () => {
     dispatch(setEvent(id));
     dispatch(setDay(1));
     dispatch(setSelectedDay(1));
+    dispatch(setEventDetails(true));
   };
 
   return (
-    <div className="w-[430px] flex flex-col gap-4">
+    <div
+      className={`${
+        eventDetails ? "hidden lg:block" : "block lg:block"
+      }w-full lg:w-[430px] flex flex-col gap-4`}
+    >
       {events.map((event) => {
         const {
           id,
